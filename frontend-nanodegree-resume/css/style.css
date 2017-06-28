@@ -1,0 +1,283 @@
+body,
+div,
+ul,
+li,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
+{
+  font-family: "Gentium Book Basic", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.clear-fix
+{
+  overflow: auto;
+}
+.education-entry,
+.online-entry,
+.work-entry,
+.project-entry
+{
+  padding: 0 5%;
+}
+.nav-entry {
+  padding: 0.1% 1%;
+  background-color: #444;
+}
+h1
+{
+  color: #f5a623;
+  display: inline;
+  font-size: 40px;
+  line-height: 48px;
+}
+h2
+{
+  color: #999;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 29px;
+  padding: 10px;
+}
+h3
+{
+  color: #000;
+  font-size: 20px;
+  font-style: italic;
+  line-height: 22px;
+}
+h4
+{
+  color: #4a4a4a;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 17px;
+}
+h2,
+h3,
+h4,
+h5
+{
+  padding: 10px 5%;
+}
+button
+{
+  background-color: #eee;
+  border: 1px solid rgba(0,0,0,0.3);
+  border-bottom-width: 3px;
+  border-radius: 5px;
+  box-shadow: none;
+  color: #666;
+  display: inline-block;
+  font-size: 10px;
+  letter-spacing: 2px;
+  moz-border-radius: 5px;
+  padding: 5px 5px;
+  text-transform: uppercase;
+  webkit-border-radius: 5px;
+}
+button:focus
+{
+  outline: none;
+}
+button:hover
+{
+  background-color: #e3e3e3;
+  border-color: rgba(0,0,0,0.5);
+}
+button:active
+{
+  background-color: #CCC;
+  border-color: rgba(0,0,0,0.9);
+}
+.date-text
+{
+  color: #999;
+  float: left;
+  font-size: 14px;
+  font-style: italic;
+  line-height: 16px;
+}
+.location-text
+{
+  color: #999;
+  float: right;
+  font-size: 14px;
+  font-style: italic;
+  line-height: 16px;
+}
+p
+{
+  color: #333;
+  font-size: 14px;
+  line-height: 21px;
+}
+a
+{
+  color: #1199c3;
+  display: block;
+  margin-top: 10px;
+  text-decoration: none;
+}
+.links>a
+{
+  margin: 0;
+}
+.welcome-message
+{
+  color: #f3f3f3;
+  font-size: 20px;
+  font-style: italic;
+  line-height: 28px;
+}
+#skills-h3
+{
+  color: #f5ae23;
+  display: none;
+}
+.orange
+{
+  background-color: #f5ae23;
+}
+.orange-text
+{
+  color: #f5ae23;
+}
+.white-text
+{
+  color: #fff;
+  font-weight: bold;
+}
+.custom_background
+{
+  background-image: url('../images/work_bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  clear: both;
+  padding-bottom: 10px;
+  height: 100vh;
+}
+.gray
+{
+  background-color: #e5e5e5;
+}
+.dark-gray
+{
+  background-color: #4a4a4a;
+}
+#header
+{
+  background-image: url('../images/background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.flex-box
+{
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: auto;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 0;
+}
+.flex-column
+{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  padding: 10px;
+}
+.center-content
+{
+  padding: 2.5% 5%;
+}
+ul
+{
+  list-style-type: none;
+}
+.biopic
+{
+  display: none;
+  float: left;
+  padding: 10px;
+  width: 180px;
+  height: 225px;
+}
+.project-img
+{
+  height: 300px;
+  padding: 2px 0 2px 2px;
+}
+span
+{
+  padding: 5px;
+}
+#lets-connect
+{
+  text-align: center;
+}
+@media only screen and (max-width: 1024px)
+{
+  #lets-connect
+  {
+    margin-top: 5%;
+  }
+}
+@media only screen and (max-width:900px)
+{
+  .biopic
+  {
+    width: 175px;
+  }
+}
+@media only screen and (max-width:879px)
+{
+  .project-img {
+    display: none;
+  }
+}
+@media only screen and (max-width: 750px)
+{
+  #lets-connect
+  {
+    margin-top: 10%;
+  }
+  .biopic
+  {
+    width: 150px;
+  }
+  .welcome-message
+  {
+    display: none;
+  }
+}
+#map
+{
+  color: green;
+  display: block;
+  height: 100%;
+  margin: 0 5%;
+}
+#mapDiv
+{
+  background-image: url('../images/map_bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 450px;
+  padding-bottom: 5%;
+  width: 100%;
+}
+@media only screen and (min-width: 750px)
+{
+  #skills-h3,
+   .biopic
+  {
+    display: block;
+  }
+}
