@@ -209,61 +209,13 @@ var education = {
             "major": "Information Technology"
         }
     ],
-    "onlineClasses": [   
+    "onlineClasses": [     
         {
-            "title":"Intro to Java Programming",
+            "title":"Android Basics Nanodegree",
             "school":"Udacity",
-            "dates":"January 2017",
-            "url":"https://www.udacity.com/course/intro-to-java-programming--cs046"
-        }, 
-        {
-            "title":"Java Programming Basics",
-            "school":"Udacity",
-            "dates":"January 2017",
-            "url":"https://www.udacity.com/course/java-programming-basics--ud282"
-        },   
-        {
-            "title":"Android Development for Beginners",
-            "school":"Udacity",
-            "dates":"January 2017",
-            "url":"https://www.udacity.com/course/android-development-for-beginners--ud837"
-        }, 
-        {
-            "title":"Android Basics: User Interface",
-            "school":"Udacity",
-            "dates":"February 2017",
-            "url":"https://www.udacity.com/course/android-basics-user-interface--ud834"
-        },
-        {
-            "title":"Android Basics: User Input",
-            "school":"Udacity",
-            "dates":"March 2017",
-            "url":"https://www.udacity.com/course/android-basics-user-input--ud836"
-        },
-        {
-            "title":"Android Basics: Multiscreen Apps",
-            "school":"Udacity",
-            "dates":"March 2017",
-            "url":"https://www.udacity.com/course/android-basics-multiscreen-apps--ud839"
-        }, 
-        {
-            "title":"Android Basics: Networking",
-            "school":"Udacity",
-            "dates":"April 2017",
-            "url":"https://www.udacity.com/course/android-basics-networking--ud843"
-        },
-        {
-            "title":"Android Basics: Data Storage",
-            "school":"Udacity",
-            "dates":"May 2017",
-            "url":"https://www.udacity.com/course/android-basics-data-storage--ud845"
+            "dates":"January 2017 - May 2017",
+            "url":"https://in.udacity.com/course/android-basics-nanodegree-by-google--nd803/"
         },        
-        {
-            "title":"Introduction to Python",
-            "school":"Udacity",
-            "dates":"June 2017",
-            "url":"https://www.udacity.com/course/introduction-to-python--ud1110"
-        },
         {
             "title":"Programming Foundations with Python",
             "school":"Udacity",
@@ -275,12 +227,6 @@ var education = {
             "school":"Udacity",
             "dates":"June 2017",
             "url":"https://www.udacity.com/courses/intro-to-html-and-css--ud304"
-        },
-        {
-            "title":"Intro to JavaScript",
-            "school":"Udacity",
-            "dates":"June 2017",
-            "url":"https://www.udacity.com/course/intro-to-javascript--ud803"
         },
         {
             "title":"JavaScript Basics",
